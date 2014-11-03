@@ -1,4 +1,5 @@
-/*这里的声明用于主题的切换，其他样式在main.css里*/
+/*这里的声明用于主题的切换，其他样式在common.css里*/
+/*先做的黑夜版所以白天版后期重新调整*/
 body{
     background: #fbfaf8 url("../../images/day/hill-day.png") 45% no-repeat;
 }

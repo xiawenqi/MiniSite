@@ -1,8 +1,4 @@
-/*这里的声明用于主题的切换，其他样式在main.css里*/
-/*html{*/
-    /*background-color: #292c3e;*/
-    /*background: #373a47 url(../../img/icons/index-bg.png)  repeat-x;*/
-/*}*/
+/*这里的声明用于主题的切换，其他样式在common.css里*/
 html{
     background: #25293a url("../../images/night/bgcolor.png") top left repeat-x;
 }
@@ -22,6 +18,8 @@ html{
 .bg-gray{background-color: #c1c6ce;}
 .bg-darkblue{background-color: #2d3c5e;}
 .bg-gold{background-color: #a28e5c;}
+
+.font-gray{color: #bfc2c6;}
 
 /*style*/
 body{ background: url("../../images/night/hill-night.png") center no-repeat;}
@@ -114,6 +112,10 @@ body{ background: url("../../images/night/hill-night.png") center no-repeat;}
 .weather a i{color: #6f5f5c}
 .weather a:hover{color: rgba(255,255,255,.7)}
 .top-menu-left .menu-down li a{color: #ffffff}
+.search404 span{background: url("../../images/night/404-search.png")center bottom no-repeat}
+.collect404 span{background: url("../../images/night/404-collect.png")center bottom no-repeat}
+.top-menu-active a{color: #c3252c!important;}
+.top-menu-active i{color: #c3252c;}
 
 /*@media*/
 @media (max-width: 768px) {
