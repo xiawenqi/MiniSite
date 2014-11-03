@@ -1,0 +1,158 @@
+/*这里的声明用于主题的切换，其他样式在main.css里*/
+body{
+    background: #fbfaf8 url("../../images/day/hill-day.png") 45% no-repeat;
+}
+/*txtcolor*/
+.red{color: #dc210a;}
+.darkblue{color: #2d3c5e;}
+.gold{color: #a28e5c;}
+.black{color: #323232;}
+.gray{color: #9b9a99;}
+.white{color: white;}
+
+/*bgcolor*/
+.bg-white{background-color: #fbfaf8;}
+.bg-darkgray{background-color: #979797;}
+.bg-lightgray{background-color: #dddfe4;}
+.bg-gray{background-color: #c1c6ce;}
+.bg-darkblue{background-color: #2d3c5e;}
+.bg-gold{background-color: #a28e5c;}
+
+/*style*/
+html{
+    background-color: #fbfaf8;
+}
+.btn-small,.btn-big{
+    height: 46px;
+    border: 0;
+    border-radius: 23px;
+    -moz-border-radius: 23px;
+    font-size: 18px;
+    line-height: 46px;
+    color: #ffffff;
+}
+.btn-small{width: 150px;}
+.btn-big{width: 190px;}
+.btn-normal{
+    background-color: #2d3c5e;
+}
+.btn-impor{
+    background-color: #a28e5c;
+}
+
+.content .btn-tab span{
+    background: url("../../images/day/arrow-right.png")no-repeat;
+}
+.color-line{
+    height: 3px;
+    width: 100%;
+}
+.color-line span{
+    display: block;
+    float: left;
+
+    height: 3px;
+}
+.color-line span:first-child{
+    width: 33%;
+    background-color: #dc210a;
+}
+.color-line span:nth-child(2){
+    width: 34%;
+    background-color: #2d3c5e;
+}
+.color-line span:nth-child(3){
+    width: 33%;
+    background-color: #a28e5c;
+}
+.login-content{
+    background-color: rgba(255,255,255,.50);
+    border-bottom: 1px solid #edeceb;
+    box-shadow: 0 0 4px 2px #edeceb;
+}
+.username{
+    display: block;
+    float: left;
+    height: 46px;
+}
+.username input{
+    height: 100%;
+    width: 300px;
+    border: 0;
+    background-color: rgba(255,255,255,0);
+    padding: 5px 0 0 5px;
+}
+.txt{
+    height:40px;
+    font-size:100%;
+    line-height:40px;
+}
+.txt label{
+    filter:alpha(opacity=1);
+    -moz-opacity:1;
+    opacity:1;
+}
+.icon-txt{
+    padding-left:6px;
+    position:relative;
+}
+.icon-txt input{
+    margin-left:36px;
+    margin-right:4px;
+    border:0;
+    /* height:35px; line-height:35px; */
+    font-size:100%;
+    vertical-align:middle;
+    z-index: 10;
+}
+.input-bar{
+     /*width: 340px;*/
+     width: 100%;
+     height: 150px;
+ }
+
+.input-bar .txt .txt-username{background:  url("../../images/day/icon-username.png") no-repeat;}
+.input-bar .txt .txt-password{background:  url("../../images/day/icon-password.png") no-repeat;}
+
+.input-bar div{ margin-top: 18px;}
+.input-bar .icon-txt input{ width:308px; text-align: center;}
+.input-bar input{
+    position: absolute;
+    top: 15px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    background: transparent url(../../images/day/input-normal.png) center bottom no-repeat;
+}
+.input-bar input:focus{
+    border: 0;
+    outline: medium;
+    background: transparent url(../../images/day/input-active.png) center bottom no-repeat;
+}
+
+/*hover style*/
+.btn-normal:hover{
+    cursor: pointer;
+    background-color: #43547b;
+}
+.btn-impor:hover{
+    cursor: pointer;
+    background-color: #b7a371;
+}
+
+/*@media*/
+@media(max-width: 400px) {
+    .input-bar input{
+        position: absolute;
+        top: 15px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 18px;
+        background: transparent url(../../images/day/input-normal-2.png) center bottom no-repeat;
+    }
+    .input-bar input:focus{
+        border: 0;
+        outline: medium;
+        background: transparent url(../../images/day/input-active-2.png) center bottom no-repeat;
+    }
+}

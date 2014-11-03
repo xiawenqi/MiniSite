@@ -5,33 +5,66 @@
     padding: 0;
     border: 0;
 }
-body {
-    line-height: 1;
-    font-family: 'RL',"Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+html{
+    /*font: 14px/22px  "Helvetica Neue", Helvetica ,'Microsoft Yahei', 'Open Sans', Arial, sans-serif;*/
 }
 
-.fl{float: left}
-.fr{float: right}
+body {
+    line-height: 1;
+    overflow-x: hidden;
+    font-family: 'RL',"Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
 
+/*position*/
+.fl{float: left;}
+.fr{float: right;}
+.center{margin-left: auto;margin-right: auto;}
+
+.mt10{margin-top: 10px;}
+.mt12{margin-top: 12px;}
+.mt20{margin-top: 20px;}
+.mt30{margin-top: 30px;}
+.mt40{margin-top: 40px;}
+.mt50{margin-top: 50px;}
+.mt78{margin-top: 78px;}
+.mt120{margin-top: 120px;}
+
+.ml70{margin-left: 70px}
+.ml80{margin-left: 80px}
+.ml95{margin-left: 95px}
+
+.mr10{margin-right: 10px;}
+.mr20{margin-right: 20px;}
+.mr50{margin-right: 50px;}
+.mr80{margin-right: 80px;}
+
+.mb20{margin-bottom: 20px;}
+
+.pt0{padding-top: 0;}
+.pt12{padding-top: 12px;}
+.pt20{padding-top: 20px;}
+.pt22{padding-top: 22px;}
 .pt30{padding-top: 30px;}
+.pt40{padding-top: 40px;}
 .pt50{padding-top: 50px;}
 .pt80{padding-top: 80px;}
 .pt100{padding-top: 100px;}
 
-.mt30{margin-top: 30px;}
-.mt50{margin-top: 50px;}
-.mt80{margin-top: 80px;}
-.mt100{margin-top: 100px;}
-
-.lh70{line-height: 70px;}
+.h300{height: 300px;}
+.h680{height: 680px;}
 
 a{cursor: pointer}
 
-/*fontsize*/
+/*font-size*/
+.font12{font-size: 12px;}
 .font14{font-size: 14px;}
 .font18{font-size: 18px;}
 .font20{font-size: 20px;}
 .font24{font-size: 24px;}
+.font26{font-size: 26px;}
 .font28{font-size: 28px; line-height: 2em;}
 .font50{font-size: 50px;}
 .font58{font-size: 58px;}
@@ -64,7 +97,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    min-width: 960px;
+    /*min-width: 960px;*/
     min-height: 600px;
     font: normal 12px 'RL';
     -webkit-font-smoothing: subpixel-antialiased;
@@ -449,3 +482,316 @@ a {
     vertical-align: top;
     margin: auto 3px;
 }
+
+/*login*/
+.top img{
+    padding-top: 30px;
+    display: block;
+    height: 100px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top{height: 180px;}
+.content{
+    display: block;
+    padding-top: 10px;
+    width: 100%;
+}
+.login-content{height: 410px;}
+.login-content h2{
+    width: 150px;
+    text-align: center;
+    font-weight:100 ;
+}
+.input-content{
+    position: inherit;
+    width: 340px;
+}
+.input-bar .txt span{
+    display: block;
+    width: 36px;
+}
+/*.btn-tab{ position: relative;}*/
+.btn-little,.btn-large{
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    /*background-color: #e8ac6c;*/
+    font-weight: 100;
+}
+.btn-small,.btn-big{
+    height: 46px;
+    border: 0;
+    border-radius: 23px;
+    -moz-border-radius: 23px;
+    font-size: 18px;
+    line-height: 46px;
+    color: #ffffff;
+}
+.btn-little{
+    padding: 14px 48px;
+}
+.btn-large{
+    padding: 14px 70px;
+}
+.btn-small{width: 150px;}
+.btn-big{width: 190px;}
+.btn-tab a{
+    height: 30px;
+    float: right;
+}
+.content .btn-tab span{
+    display: block;
+    height:30px;
+    width: 30px;
+    float: right;
+}
+.btn-tab img{ position: absolute;}
+.showstep{
+    position: relative;
+    width: 100%;
+    height: 48px;
+}
+.showstep .showstep-content{
+    position: absolute ;
+    margin-left: 26%;
+    width: 48%;
+}
+.showstep ul{
+    position: relative;
+    width: 33.333%;
+    float: left;
+}
+.showstep .showstep-content ul li{
+    list-style: none;
+}
+.showstep .step-list {
+    display: block;
+    float: left;
+    width: 30%;
+    height: 48px;
+    line-height: 48px;
+}
+.showstep .showstep-content .step-list:last-child{margin-right: 0;}
+.step-list span{
+    display: block;
+    float: left;
+}
+.step-list span:first-child{
+    width: 50px;
+    margin-right: 24px;
+    text-align: center;
+}
+.showstep .ul-arrow{
+    display: block;
+    float: left;
+    width: 5%;
+}
+.color-line{
+    height: 3px;
+    width: 100%;
+}
+.color-line span{
+    display: block;
+    float: left;
+    height: 3px;
+}
+.txt{
+    height:40px;
+    font-size:100%;
+    line-height:40px;
+}
+.txt label{
+    filter:alpha(opacity=1);
+    -moz-opacity:1;
+    opacity:1;
+}
+.icon-txt{
+    padding-left:6px;
+    position:relative;
+}
+.icon-txt input{
+    margin-left:36px;
+    margin-right:4px;
+    border:0;
+    font-size:100%;
+    vertical-align: middle;
+    z-index: 10;
+}
+.input-content .input-bar span i{
+    font-size: 29px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 100;
+}
+.input-bar{
+    width: 100%;
+    /*height: 200px;*/
+    height: inherit;
+}
+.input-bar div{ padding-top: 18px;}
+.input-bar .icon-txt input{
+    width:308px;
+    height: 50px;
+    margin-left: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    text-align: left;
+    background-color: rgba(255,255,255,0);
+}
+.input-bar input{
+    position: absolute;
+    top: 15px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.input-bar input:focus{
+    border: 0;
+    outline: medium;
+}
+.username{
+    display: block;
+    float: left;
+    height: 46px;
+}
+.username input{
+    height: 100%;
+    width: 300px;
+    border: 0;
+    padding: 5px 0 0 5px;
+}
+.apply-content{
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 360px;
+}
+.apply-up{
+    width: 100%;
+}
+.apply-up-3{
+    display: block;
+    float: left;
+    width: 250px;
+    margin-right: 50px;
+    height: 66px;
+}
+.apply-up-3 div{
+    display: block;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.apply-up-3 div .list-de{
+    padding-top: 10px;
+}
+.apply-up-3:last-child{margin-right: 0;}
+.apply-up-3-right{
+    float: right;
+    width: 64px;
+}
+.apply-up-3 .apply-up-3-left{
+    float: left;
+    width: 184px;
+    height: 40px;
+}
+.apply-up-3-right span{
+    height: 50px;
+    margin-top: 8px;
+    line-height: 66px;
+    font-size: 24px;
+    vertical-align: middle;
+    text-align: center;
+}
+.login-content .apply-content .apply-down{
+    /*width: 350px;*/
+    width: 350px;
+    height: 80px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*begin apply child=2*/
+.apply-up-2{
+    display: block;
+    float: left;
+    width: 330px;
+    /*margin-right: 180px;*/
+    height: 66px;
+}
+.apply-up-2 div{
+    display: block;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.apply-up-2 div .list-de{
+    padding-top: 10px;
+}
+.apply-up-2:first-child{
+    display: block;
+    float: left;
+}
+.apply-up-2:last-child{
+    display: block;
+    float: right;
+}
+.apply-up-2-right{
+    float: right;
+    width: 64px;
+}
+.apply-up-2 .apply-up-2-left{
+    float: left;
+    /*width: 260px;*/
+    width: 230px;
+    padding-left: 30px;
+    text-align: left;
+    height: 40px;
+}
+.apply-up-2-right span{
+    height: 50px;
+    margin-top: 8px;
+    line-height: 66px;
+    font-size: 24px;
+    vertical-align: middle;
+    text-align: center;
+}
+/*end apply child=2*/
+.apply-content-left{
+    display: table;
+    float: left;
+    width: 340px;
+}
+.apply-content-right{
+    display: table;
+    float: right;
+    width: 340px;
+}
+.input-content{
+    /*width:300px;*/
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+}
+.login-content-other{
+    width: 50%;
+    /*height: 70px;*/
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+}
+/*.login-content-other span{margin-top: 20px;}*/
+.login-content-other a{
+    color: #959395;
+    padding: 20px;
+}
+.step-wap{
+    width: 100%;
+    height: 50px;
+}
+.login-content .input-content form{height: 200px;}
