@@ -1,0 +1,40 @@
+/*yarkb 响应*/
+
+@media screen and (min-width: 1080px) {
+    #home-menu .menu:hover .menu-title .l1,#home-menu .menu:hover .menu-title .l2 {
+        top: 0 !important;
+        left: 0 !important;
+    }
+
+    #home-menu .menu-1:hover .cube-container {
+        -webkit-transform: translateZ(-150px) rotateX(90deg);
+        -moz-transform: translateZ(-150px) rotateX(90deg);
+        -o-transform: translateZ(-150px) rotateX(90deg);
+        transform: translateZ(-150px) rotateX(90deg);
+        -ms-transform: translateZ(-150px) rotateX(90deg);
+    }
+
+    #home-menu .menu-2:hover .cube-container {
+        -webkit-transform: translateZ(-122px) rotateY(-90deg);
+        -moz-transform: translateZ(-122px) rotateY(-90deg);
+        -o-transform: translateZ(-122px) rotateY(-90deg);
+        transform: translateZ(-122px) rotateY(-90deg);
+        -ms-transform: translateZ(-122px) rotateY(-90deg);
+    }
+
+    #home-menu .menu-3:hover .cube-container {
+        -webkit-transform: translateZ(-111px) rotateX(90deg);
+        -moz-transform: translateZ(-111px) rotateX(90deg);
+        -o-transform: translateZ(-111px) rotateX(90deg);
+        transform: translateZ(-111px) rotateX(90deg);
+        -ms-transform: translateZ(-111px) rotateX(90deg);
+    }
+
+    #home-menu .menu-4:hover .cube-container {
+        -webkit-transform: translateZ(-122px) rotateY(-90deg);
+        -moz-transform: translateZ(-122px) rotateY(-90deg);
+        -o-transform: translateZ(-122px) rotateY(-90deg);
+        transform: translateZ(-122px) rotateY(-90deg);
+        -ms-transform: translateZ(-122px) rotateY(-90deg);
+    }
+}
