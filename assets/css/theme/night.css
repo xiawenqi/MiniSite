@@ -98,14 +98,6 @@ body{ background: url("../../images/night/hill-night.png") center no-repeat;}
 .collect404 span{background: url("../../images/night/404-collect.png")center bottom no-repeat}
 .top-menu-active a{color: #c3252c!important;}
 .top-menu-active i{color: #c3252c;}
-
-.search-result .sr-num{color: #bfc2c6;}
-.search-result .sr-num span{color: #c3252c;}
-.sr-result .sr-result-li a{color: white;}
-.sr-result .sr-result-li a:hover{color: #e8ac6c;}
-.sr-result .sr-result-li p{color: #bfc2c6;}
-.sr-page a{background-color: rgba(255,255,255,.2)}
-.sr-page .active{background-color: rgba(255,255,255,.2)}
 /*@media*/
 @media (max-width: 768px) {
     body{ background: url("../../images/night/hill-night.png") center 140px no-repeat;}

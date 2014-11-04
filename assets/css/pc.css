@@ -2,16 +2,9 @@
 body{
     min-width: 960px;
 }
-
-/*search bar*/
 .search-result .sr-num,.search-result .sr-result{
     width: 98%;
     max-width: 1440px;
     margin: auto auto;
 }
-.sr-result .sr-result-li{width: 48%;display: block;padding-top: 20px;padding-bottom: 20px;border-bottom: 1px solid rgba(255,255,255,.2)}
-.sr-result .sr-result-li:nth-child(2n+1){float: left}
-.sr-result .sr-result-li:nth-child(2n){float: right}
-.sr-result .sr-result-li:nth-last-child(1){border: 0;}
-.sr-result .sr-result-li:nth-last-child(2){border: 0;}
-.search-result .sr-page{}
+.search-result .sr-num span{color: red}
