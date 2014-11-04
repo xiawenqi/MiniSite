@@ -3,21 +3,6 @@
 body{
     background: #fbfaf8 url("../../images/day/hill-day.png") 45% no-repeat;
 }
-/*txtcolor*/
-.red{color: #dc210a;}
-.darkblue{color: #2d3c5e;}
-.gold{color: #a28e5c;}
-.black{color: #323232;}
-.gray{color: #9b9a99;}
-.white{color: white;}
-
-/*bgcolor*/
-.bg-white{background-color: #fbfaf8;}
-.bg-darkgray{background-color: #979797;}
-.bg-lightgray{background-color: #dddfe4;}
-.bg-gray{background-color: #c1c6ce;}
-.bg-darkblue{background-color: #2d3c5e;}
-.bg-gold{background-color: #a28e5c;}
 
 /*style*/
 html{
@@ -140,6 +125,14 @@ html{
     cursor: pointer;
     background-color: #b7a371;
 }
+
+.top-menu-left .menu-down li a{
+    color: #000;
+}
+.top-menu-left .menu-down li a:hover{
+    color: #dc210a;
+}
+
 
 /*@media*/
 @media(max-width: 400px) {

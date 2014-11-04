@@ -2,24 +2,7 @@
 html{
     background: #25293a url("../../images/night/bgcolor.png") top left repeat-x;
 }
-/*txtcolor*/
-.red,.color-red{color: #dc210a;}
-.darkblue{color: #2d3c5e;}
-.gold{color: #a28e5c;}
-.black{color: white;}
-.gray{color: #9b9a99;}
-.white,.color-white{color: white;}
-.color-gold{color: #917637;}
 
-/*bgcolor*/
-.bg-white{background-color: #fbfaf8;}
-.bg-darkgray{background-color: #979797;}
-.bg-lightgray{background-color: #dddfe4;}
-.bg-gray{background-color: #c1c6ce;}
-.bg-darkblue{background-color: #2d3c5e;}
-.bg-gold{background-color: #a28e5c;}
-
-.font-gray{color: #bfc2c6;}
 
 /*style*/
 body{ background: url("../../images/night/hill-night.png") center no-repeat;}
@@ -98,25 +81,23 @@ body{ background: url("../../images/night/hill-night.png") center no-repeat;}
     color: white;
 }
 
-/*旋转方块相关*/
-#home-menu .menu { color: #fff;}
-#home-menu .menu-1 .face-normal, #home-menu .menu-1 .face-hover { background-color: #f1f1f1;}
-#home-menu .menu-2 .face-normal, #home-menu .menu-2 .face-hover { background-color: #e8ac6c;}
-#home-menu .menu-3 .face-normal, #home-menu .menu-3 .face-hover { background-color: #c3252c;}
-#home-menu .menu-4 .face-normal, #home-menu .menu-4 .face-hover { background-color: #bfc2c6;}
-.menu-1 .cube-container .menu-title{color: #917637;}
+
 
 .top-menu{background: url("../../images/night/star-night.png")top center no-repeat;}
 .weather{color: rgba(255,255,255,.5)}
 .weather a{color: rgba(255,255,255,.5)}
 .weather a i{color: #6f5f5c}
 .weather a:hover{color: rgba(255,255,255,.7)}
-.top-menu-left .menu-down li a{color: #ffffff}
+.top-menu-left .menu-down li a{
+    color: #fff;
+}
+.top-menu-left .menu-down li a:hover{
+    color: #dc210a;
+}
 .search404 span{background: url("../../images/night/404-search.png")center bottom no-repeat}
 .collect404 span{background: url("../../images/night/404-collect.png")center bottom no-repeat}
 .top-menu-active a{color: #c3252c!important;}
 .top-menu-active i{color: #c3252c;}
-
 /*@media*/
 @media (max-width: 768px) {
     body{ background: url("../../images/night/hill-night.png") center 140px no-repeat;}

@@ -7,16 +7,35 @@
 }
 html{
     /*font: 14px/22px  "Helvetica Neue", Helvetica ,'Microsoft Yahei', 'Open Sans', Arial, sans-serif;*/
+    font-family:  'Microsoft Yahei',"Helvetica Neue", Helvetica , 'Open Sans', Arial, sans-serif;
 }
 
 body {
     line-height: 1;
     overflow-x: hidden;
-    font-family: 'RL',"Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+    /*font-family: 'RL',"Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;*/
+    font-family:  'Microsoft Yahei',"Helvetica Neue", Helvetica , 'Open Sans', Arial, sans-serif;
 }
 a{
     text-decoration: none;
 }
+
+/*txtcolor*/
+.red,.color-red{color: #dc210a;}
+.darkblue{color: #2d3c5e;}
+.gold{color: #a28e5c;}
+.black{color: white;}
+.gray{color: #9b9a99;}
+.white,.color-white{color: white;}
+.color-gold{color: #917637;}
+
+/*bgcolor*/
+.bg-white{background-color: #fbfaf8;}
+.bg-darkgray{background-color: #979797;}
+.bg-lightgray{background-color: #dddfe4;}
+.bg-gray{background-color: #c1c6ce;}
+.bg-darkblue{background-color: #2d3c5e;}
+.bg-gold{background-color: #a28e5c;}
 
 /*position*/
 .fl{float: left;}
@@ -397,6 +416,16 @@ a {
 }
 #home-menu .menu-4 .face-hover .menu-title .l1 { top: -50px;}
 #home-menu .menu-4 .face-hover .menu-title .l2 { top: 50px;}
+
+/*旋转方块相关颜色*/
+#home-menu .menu { color: #fff;}
+#home-menu .menu-1 .face-normal, #home-menu .menu-1 .face-hover { background-color: #f1f1f1;}
+#home-menu .menu-2 .face-normal, #home-menu .menu-2 .face-hover { background-color: #e8ac6c;}
+#home-menu .menu-3 .face-normal, #home-menu .menu-3 .face-hover { background-color: #c3252c;}
+#home-menu .menu-4 .face-normal, #home-menu .menu-4 .face-hover { background-color: #bfc2c6;}
+.menu-1 .cube-container .menu-title{color: #917637;}
+
+
 #adn #box-content-1 {
     position: relative;
     height: 100%;
@@ -429,7 +458,7 @@ a {
     margin-right: auto;
     height: 180px;
     position: relative;
-    z-index: 100;
+    z-index: 10000;
 }
 .top-menu-left{
     display: block;
@@ -442,6 +471,17 @@ a {
     float: right;
     height: 100%;
     width: 450px;
+}
+.top-menu-right .menu-up ul{
+    float: right;
+    font-size: 14px;
+}
+.top-menu-right .menu-up ul li{
+    float: left;
+    margin-left: 30px;
+}
+.top-menu-right .menu-up ul li a{
+    color: #323232;
 }
 .top-menu-center{
     position: absolute;
