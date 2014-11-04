@@ -857,3 +857,25 @@ a {
     background: #ccc;
 }
 .search-result .sr-num{text-align: right}
+.sr-result{
+    display: table;
+    height: auto;
+}
+.sr-page{
+    display: table;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sr-page a{
+    display: block;
+    float: left;
+    margin: 0 20px;
+    margin-top: 14px;
+    height: 8px;
+    width: 36px;
+    /*line-height: 36px;*/
+}
+.sr-page a.active{}
+/*hover变大*/
+/*.sr-page a:hover{margin-top: 0;padding-top: 14px;padding-bottom: 14px;}*/
