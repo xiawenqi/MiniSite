@@ -5,9 +5,10 @@
     padding: 0;
     border: 0;
 }
+ul,ol{list-style: none}
 html{
     /*font: 14px/22px  "Helvetica Neue", Helvetica ,'Microsoft Yahei', 'Open Sans', Arial, sans-serif;*/
-    font-family:  'Microsoft Yahei',"Helvetica Neue", Helvetica , 'Open Sans', Arial, sans-serif;
+    /*font-family:  'Microsoft Yahei',"Helvetica Neue", Helvetica , 'Open Sans', Arial, sans-serif;*/
 }
 
 body {
@@ -15,11 +16,20 @@ body {
     overflow-x: hidden;
     /*font-family: 'RL',"Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;*/
     font-family:  'Microsoft Yahei',"Helvetica Neue", Helvetica , 'Open Sans', Arial, sans-serif;
+    /*font-family: 'Microsoft Yahei';*/
 }
 a{
     text-decoration: none;
 }
 
+.clearfix:before, 
+.clearfix:after{
+    display: table;
+    content: " ";
+}
+.clearfix:after{
+    clear: both;
+}
 /*txtcolor*/
 .red,.color-red{color: #dc210a;}
 .darkblue{color: #2d3c5e;}
@@ -89,7 +99,9 @@ a{cursor: pointer}
 .font58{font-size: 58px;}
 .font70{font-size: 70px;}
 
-ul li{list-style: none}
+/*font color*/
+.font-gray{color: #95969e;}
+
 
 /*main*/
 #sidebar {
@@ -118,7 +130,7 @@ body {
     height: 100%;
     /*min-width: 960px;*/
     min-height: 600px;
-    font: normal 12px 'RL';
+    font: normal 12px "Microsoft Yahei";
     -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -492,16 +504,70 @@ a {
 }
 .top-menu .menu-up{
     display: block;
-    float: left;
-    height: 70px;
+    /*float: left;*/
+    /*height: 70px;*/
     width: 450px;
 }
 .top-menu .menu-down{
     display: block;
-    float: left;
-    height: 60px;
+    margin-top: 15px;
     width: 450px;
 }
+.lanswitch{
+    width: 90px;
+    /*height: 44px;*/
+    margin-left: 20px;
+}
+.lanswitch input{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.lanswitch label{
+    position: relative;
+    display: block;
+    height: 44px;
+    background-color: #222331;
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.lanswitch label .EN, .lanswitch label .CN{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    
+    color: #44424c;
+    /*background-color: #fff;*/
+    position: absolute;
+    text-align: center;
+     z-index: 11;
+}
+.lanswitch label .CN{
+    left: 4px;
+    top: 4px;
+}
+.lanswitch label .EN{
+    right: 4px;
+    top: 4px;
+}
+.lanswitch label .flasher{
+    background-color: #d3d3d6;
+    border-radius: 18px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    z-index: 10;
+    /*transition: left 0.25s;
+    -webkit-transition: left 0.25s;*/
+}
+.lanswitch label.checked .flasher{
+    left: 50px;
+}
+
 .weather{
     display: block;
     float: left;
@@ -524,13 +590,14 @@ a {
     margin: auto 3px;
 }
 .top-menu-right .menu-up {
-    position: absolute;
+    /*position: absolute;*/
 }
 .top-menu-right .menu-up li{
     display: block;
     position: relative;
     float: right;
-    padding: 10px 20px;
+    /*padding: 10px 20px;*/
+    margin-left: 35px;
 }
 
 /*login*/
@@ -852,9 +919,47 @@ a {
 .searchbar{
     display: block;
     height: 44px;
-    width: 44px;
+    /*width: 200px;*/
     border-radius: 50%;
-    background: #ccc;
+    /*background: #ccc;*/
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+.searchbar.open{
+    width: 200px;
+}
+.searchbar .search-field{
+    color: #44424c;
+    background-color: #222331;
+    height: 44px;
+    border-radius: 22px 0 0 22px;
+    text-indent: 22px;
+    width: 0;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+
+.searchbar .search-btn{
+    font-size: 18px;
+    color: #44424c;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 22px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #222331;
+    
+}
+.searchbar.open .search-field{
+    width: 156px;
+}
+.searchbar.open .search-btn{
+    border-radius: 0 22px 22px 0;
+}
+.searchbar .search-field:focus, 
+.searchbar .search-btn:focus{
+    outline: 0;
 }
 .search-result .sr-num{text-align: right}
 .sr-result{
@@ -878,4 +983,4 @@ a {
 }
 .sr-page a.active{}
 /*hover变大*/
-/*.sr-page a:hover{margin-top: 0;padding-top: 14px;padding-bottom: 14px;}*/
+/*.sr-page a:hover{margin-top: 0;padding-top: 14px;padding-bottom: 14px;}
