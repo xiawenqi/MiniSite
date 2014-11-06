@@ -9,9 +9,9 @@ var handleLanguageSwitcher = function(){
 };
 
 handleSearchFieldToggle = function(){
-	$(".search-btn").on("click", function(){
-		$("#searchbar").toggleClass("open");
-	});
+	// $(".search-btn").on("click", function(){
+	// 	$("#searchbar").toggleClass("open");
+	// });
 };
 
 var Index = function () {
