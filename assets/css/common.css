@@ -102,6 +102,23 @@ a{cursor: pointer}
 /*font color*/
 .font-gray{color: #95969e;}
 
+/*btns */
+.btn{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    width: 190px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    text-align: center;
+}
+.btn-orange{
+    background-color: #e8ac6c;
+}
+.btn-red{
+    background-color: #c3252c;
+}
 
 /*main*/
 #sidebar {
@@ -944,6 +961,8 @@ a {
     opacity: 0;
     filter: alpha(opacity=0);
     cursor: pointer;
+    font-size: 20px;
+    color: #fff;
 }
 .searchbar .search-field:focus{
     width: 200px;
@@ -1002,4 +1021,102 @@ a {
 
 .form-download-page{
     height: 627px;
+}
+.form-download-page h1{
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+}
+.corverflow-wrap{
+    margin: 60px auto 0 auto;
+    max-width: 1200px;
+    height: 340px;
+}
+.form-title{
+    display: none;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 20px;
+}
+.ui-state-active .form-title{
+    display: block;
+}
+.download-btns{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.download-btns .btn{
+    margin: 0 15px;
+}
+
+/*timeline*/
+.time-line-content{
+    width: 960px;
+    margin: 85px auto 0 auto;
+    position: relative;
+}
+.time-line-content .left{
+    width: 425px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.time-line-content .left .square{
+    width: 255px;
+    height: 177px;
+    position: absolute;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    filter: alpha(opacity=10);
+    z-index: 10;
+}
+.time-line-content .left img{
+    position: absolute;
+    left: 26px;
+    z-index: 11;
+}
+.time-line-content .right{
+    margin-left: 425px;
+}
+.time-line-content .right h1{
+    font-size: 36px;
+    color: #fff;
+    font-weight: normal;
+    position: relative;
+    top: -35px;
+}
+.time-line-content .right p{
+    font-size: 20px;
+    color: #bfc2c6;
+}
+.time-line-content .right .timeline-btns{
+    margin-top: 40px;
+}
+
+.timeline-line{
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 120px;*/
+    margin-top: 60px;
+    position: relative;
+}
+.timeline-line .time{
+    font-size: 36px;
+    color: #e8ac6c;
+    width: 162px;
+    position: absolute;
+}
+.timeline-line .time .left, 
+.timeline-line .time .right{
+    color: #96969e;
+}
+.timeline-line .line-wrap{
+    margin-left: 162px;
+    border-top: 2px dashed #bfc2c6;
+    position: relative;
+    top: 25px;
 }

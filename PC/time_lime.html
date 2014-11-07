@@ -149,46 +149,60 @@
 <!-- Page container -->
     <div id="page-container">
     <!-- Accueil -->
-        <section id="form-download" class="page form-download-page">
-            <h1>报告下载</h1>
-            <div class="corverflow-wrap">
-	            <ul id="form-coverflow" class="">
-	   				<li>
-	   					<img src="../assets/images/forms/form-dn1.jpg" width="480" height="290">
-	   					<p class="form-title">大数据解读下的数字化营销1</p>
-	   				</li>
-	   				<li>
-	   					<img src="../assets/images/forms/form-dn1.jpg" width="480" height="290">
-	   					<p class="form-title">大数据解读下的数字化营销2</p>
-	   				</li>
-	   				<li>
-	   					<img src="../assets/images/forms/form-dn1.jpg" width="480" height="290">
-	   					<p class="form-title">大数据解读下的数字化营销3</p>
-	   				</li>
-	   				<li>
-	   					<img src="../assets/images/forms/form-dn1.jpg" width="480" height="290">
-	   					<p class="form-title">大数据解读下的数字化营销4</p>
-	   				</li>
-	   				<li>
-	   					<img src="../assets/images/forms/form-dn1.jpg" width="480" height="290">
-	   					<p class="form-title">大数据解读下的数字化营销5</p>
-	   				</li>
-	            </ul>
+        <section id="time-lime" class="page time-lime-page">
+            <div class="time-line-content">
+            	<div class="left">
+            		<div class="image-container">
+            			<div class="square"></div>
+            			<img src="../assets/images/timeline-left.jpg" width="275" height="177" alt="秒针">
+            		</div>
+            	</div>
+            	<div class="right">
+            		<h1><span class="red">秒针系统</span>亮相2014电商博览会 助力品牌掘金移动互联大数据</h1>
+            		<p>火车站应该是线下人流量最大的地方了,但大家并没有纷纷去那开店,因为大家知道再好的产品在那可能都比不过一碗热气腾腾的方便面”，<span class="red">秒针系统</span>副总裁黎沛姿女士在……</p>
+            		<div class="timeline-btns">
+            			<a href="#" class="btn btn-orange">阅读全文</a>
+            		</div>
+            	</div>
             </div>
-            <div class="download-btns">
-            	<a href="#" class="btn btn-orange">简版下载</a>
-            	<a href="#" class="btn btn-red">完整版下载</a>
+            <div class="timeline-line">
+            	<div class="time">
+            		<a href="#" class="left"><</a>
+            		<span class="year">2014</span>
+            		<a href="#" class="right">></a>
+            	</div>
+            	<div class="line-wrap">
+            		<a href="#" class="left"></a>
+            		<div class="line">
+            			<ul class="events">
+            				<li>
+            					<div class="date">
+            						<p class="day">28</p>
+            						<p class="month">10月</p>
+            					</div>
+            					<div class="sep">
+            						<span class="dot"></span>
+            						<p class="vline"></p>
+            					</div>
+            					<div class="ctnt">
+            						秒针系统与360论品牌营销的实效测量
+            					</div>
+            				</li>
+            			</ul>
+            		</div>
+            		<a href="#" class="right"></a>
+            	</div>
             </div>
         </section>
     </div>  <!-- end #page-container -->
 </div> <!-- end #main-container -->
 <script src="../assets/js/modern-detect-izr.min.js"></script>
 <script src="../assets/plugins/jquery-1.8.2/jquery-1.8.2.min.js"></script>
-<script src="../assets/plugins/coverflow-3.0.1/dist/coverflow.min.js"></script>
-<script src="../assets/js/form-download.js"></script>
+<!-- <script src="../assets/plugins/coverflow-3.0.1/dist/coverflow.min.js"></script> -->
+<script src="../assets/js/time-line.js"></script>
 <script>
     $(function(){
-        FormDownload.init();
+        TimeLime.init();
     });
 </script>
 </body>
