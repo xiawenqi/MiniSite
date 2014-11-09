@@ -1206,3 +1206,114 @@ a {
     background-color: rgba(255,255,255,0.1);
     filter: alpha(opacity=10);
 }
+
+/*收藏*/
+.collection-content{
+    position: relative;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+}
+.collection-content .left,
+.collection-content .right{
+    position: absolute;
+    top: 0;
+    width: 78px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 60px;
+    color: #bab9b7;
+}
+.collection-content .right{
+    right: 0;
+}
+.collection-content .event-ponits{
+    margin: 0 78px;
+    /*overflow-x:hidden;*/
+}
+.event-ponits-list li{
+    float: left;
+    position: relative;
+}
+.event-ponits-list li img{
+    display: block;
+}
+.event-ponits-list li .hint{
+    position: absolute;
+    color: #bfc2c6;
+    font-size: 18px;
+}
+.event-ponits-list li .hint.up{
+    top: -107px;
+}
+.event-ponits-list li .hint.up .pointer{
+    position: absolute;
+    bottom: -60px;
+    left: 18px;
+    width: 14px;
+    height: 50px;
+    background: url(../images/collections/hint-up.png) no-repeat;
+}
+.event-ponits-list li .hint.down .pointer{
+    position: absolute;
+    top: -35px;
+    right: 18px;
+    width: 14px;
+    height: 50px;
+    background: url(../images/collections/hint-down.png) no-repeat;
+}
+.event-ponits-list li .hint.down{
+    bottom: -83px;
+}
+.event-ponits-list li .hint .date{
+    position: absolute;
+    width: 48px;
+    color: #e8ac6c;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+.event-ponits-list li .hint .date .day{
+    font-size: 36px;
+}
+.event-ponits-list li .hint .ctnt{
+    margin-left: 48px;
+}
+.event-ponits-list li .block-down{
+    position: absolute;
+    bottom: -90px;
+}
+.event-ponits-list li .block-up{
+    position: absolute;
+    top: -90px;
+}
+.collection-timeline-line{
+    margin-top: 290px;
+}
+.collection-timeline-line .line-wrap{
+    margin: 0 60px;
+}
+.collection-timeline-line .line-wrap .line .events li .sep .dot{
+    position: relative;
+    top: 50px;
+}
+.collection-timeline-line .line-wrap .line .events li{
+    height: 50px;
+}
+.collection-timeline-line .line-wrap .line .events li.cur{
+    margin-top: -0;
+}
+.collection-timeline-line .line-wrap .line .events li.cur .sep .dot{
+    top: -40px;
+}
+.collection-timeline-line .line-wrap .line .events li .date{
+    display: none;
+}
+.collection-timeline-line .line-wrap .line .events li.cur .date{
+    display: block;
+    top: -40px;
+    
+}
+.collection-timeline-line .line-wrap .line .events li.cur .date .month{
+    font-size: 36px;
+}
