@@ -1317,3 +1317,115 @@ a {
 .collection-timeline-line .line-wrap .line .events li.cur .date .month{
     font-size: 36px;
 }
+
+
+/*产品*/
+.product-content{
+    height: 265px;
+    text-align: center;
+    background-color:rgba(57,57,70, 0.72); 
+    margin-top: 60px;
+    filter: alpha(opacity=72);
+}
+.product-content h1{
+    height: 160px;
+    line-height: 160px;
+    font-size: 66px;
+    color: #e8ac6c;
+    font-weight: normal;
+}
+.product-content .select-prompt{
+    color: #fff;
+    line-height: 1em;
+    font-size: 28px;
+}
+.product-list{
+    padding: 80px 120px;
+}
+.product-list .product{
+    width: 42.5%;
+    float: left;
+    padding-right: 90px;
+    box-sizing: border-box;
+}
+.link-product-detal{
+    display: inline-block;
+    width: 12px;
+    height: 32px;
+    background: url(../images/night/product-detail.png) no-repeat;
+    float: right;
+}
+.product-list .seperator{
+    margin: 0 7.4%;
+    height: 146px;
+    float: left;
+    border-right: 1px solid #595964;
+}
+.product-decription{
+    font-size: 16px;
+    color: #bfc2c6;
+    margin-top: 15px;
+}
+.product .download{
+    margin-top: 30px;
+    text-align: right;
+}
+.product .download .link-download{
+    font-size: 18px;
+    color: #fff;
+}
+.product .download .link-download .ico-dn{
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    margin-right: 5px;
+    background: url(../images/night/download-link.png) no-repeat;
+}
+.product .download .link-download:hover{
+    color: #e8ac6c;
+}
+.product .download .link-download:hover .ico-dn{
+    background-position: 0 -17px;
+}
+.product-content .entrance{
+    float: left;
+    text-align: center;
+    line-height: 1em;
+    padding: 106px 0;
+    width: 50%;
+    
+}
+.bracket-wrap{
+    font-size: 48px;
+    color: #fff;
+}
+.bracket-wrap .text{
+    margin: 0 40px;
+    float: left;
+    margin-top: -10px;
+    line-height: 1em;
+}
+.product-bracket{
+    display: inline-block;
+    float: left;
+    width: 16px;
+    height: 33px;
+    background: url(../images/night/product-brackets.png) no-repeat;
+}
+.product-bracket-right{
+    background-position: -16px 0;
+    margin-left: -3px;
+}
+.product-data{
+    float: left;
+    width: 33%;
+    padding-top: 77px; 
+}
+.bracket-wrap{
+    display: inline-block;
+}
+.product-data .annotation{
+    margin-top: 20px;
+    color: #bfc2c6;
+    font-size: 18px;
+}
