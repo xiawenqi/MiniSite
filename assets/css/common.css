@@ -1219,3 +1219,137 @@ a{
     font-size: 18px;
     color: #bcbec0;
 }
+.article-news-pop{
+    display: none;
+}
+.mask{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: alpha(opacity=50);
+    z-index: 10000;
+}
+.article-news{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 10001;
+    left: 16.6%;
+    right: 16.6%;
+    background-color: #fff;
+}
+.article-close{
+    position: absolute;
+    right: -60px;
+    top: 18px;
+    width: 33px;
+    height: 31px;
+    background: url(../images/night/ico-close.png) no-repeat;
+}
+.article-sep{
+    height: 3px;
+    background: url(../images/night/article-sep.png) no-repeat;
+    background-size: 100% 3px;
+}
+.img-block{
+    width: 100%;
+}
+.article{
+    padding: 50px 0;
+}
+.article-content{
+   margin: 50px 17%;
+   /*padding-top: 50px;*/
+   
+}
+.article-content h2{
+    font-size: 36px;
+    color: #000;
+    font-weight: normal;
+    margin-top: 50px;
+    line-height: 1.3em;
+}
+.article-content h2 .article-info{
+    font-size: 16px;
+    color: #bfc2c6;
+    margin-top: 20px;
+}
+.article-content h2 .article-info span{
+    margin-right: 60px;
+}
+.article-content p{
+    font-size: 18px;
+    color: #000;
+    text-indent: 2em;
+    line-height: 2em;
+    margin-top: 5px;
+}
+.article-content h3{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #e8ac6c;
+    font-weight: normal;
+}
+.article-footer{
+    margin: 25px auto 0 auto;
+    width: 89.3%;
+}
+.article-footer .left{
+    float: left;
+    width: 65%;
+    position: relative;
+}
+.article-footer .left .label{
+    position: absolute;
+    width: 50px;
+    top: 10px;
+}
+.article-footer .left .article-tag-list{
+    margin-left: 50px;
+}
+.article-footer .left .article-tag-list li{
+    float: left;
+    margin-right: 10px;
+}
+.article-footer .left .article-tag-list li a{
+    display: inline-block;
+    padding: 0 14px;
+    line-height: 24px;
+    background-color: #bfc2c6;
+    color: #fff;
+    margin-top: 5px;
+}
+.article-footer .right{
+    float: right;
+    width: 35%;
+    text-align: right;
+}
+.sharing-links a{
+    display: inline-block;
+    width: 50px;
+    height:50px;
+    /*background: */
+    margin-left:14px;
+}
+.sharing-links a.sina-weibo{
+    background: url(../images/share-weibo.jpg) no-repeat;
+}
+.sharing-links a.tencent-weibo{
+    background: url(../images/share-tencent.jpg) no-repeat;
+}
+.sharing-links a.renren{
+    background: url(../images/share-renren.jpg) no-repeat;
+}
+.sharing-links a.douban{
+    background: url(../images/share-douban.jpg) no-repeat;
+}
+.article-opers{
+    margin-top: 45px;
+    text-align: center;
+}
+.article-opers .btn{
+    margin: 0 20px;
+}
