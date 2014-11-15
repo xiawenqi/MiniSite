@@ -51,26 +51,42 @@
     width: 400%;
     height: 400%;
 }
-#home-grid  .img-1,#home-grid  .img-2,#home-grid  .img-3,#home-grid  .img-4,#home-grid  .img-5,#home-grid  .img-6,#home-grid  .img-7,#home-grid  .img-8,#home-grid  .img-9,#home-grid  .img-10 {
+#home-grid  .img-1,
+#home-grid  .img-2,
+#home-grid  .img-3,
+#home-grid  .img-4,
+#home-grid  .img-5,
+#home-grid  .img-6,
+#home-grid  .img-7,
+#home-grid  .img-8,
+#home-grid  .img-9,
+#home-grid  .img-10 {
     position: absolute;
     top: 0;
     left: 0;
     width: 25%;
     height: 25%;
 }
-#home-grid .gif-1-container .img-1, #home-grid .gif-2-container .img-1, #home-grid .gif-4-container .img-1 {
+#home-grid .gif-1-container .img-1, 
+#home-grid .gif-2-container .img-1, 
+#home-grid .gif-4-container .img-1 {
     top: 50%;
     left: 25%;
 }
-#home-grid .gif-1-container .img-2, #home-grid .gif-2-container .img-2, #home-grid .gif-4-container .img-2 {
+#home-grid .gif-1-container .img-2, 
+#home-grid .gif-2-container .img-2, 
+#home-grid .gif-4-container .img-2 {
     top: 50%;
     left: 50%;
 }
-#home-grid .gif-1-container .img-3, #home-grid .gif-2-container .img-3, #home-grid .gif-4-container .img-3 {
+#home-grid .gif-1-container .img-3, 
+#home-grid .gif-2-container .img-3, 
+#home-grid .gif-4-container .img-3 {
     top: 25%;
     left: 50%;
 }
-#home-grid .gif-1-container .img-4, #home-grid .gif-2-container .img-4{
+#home-grid .gif-1-container .img-4, 
+#home-grid .gif-2-container .img-4{
     top: 25%;
     left: 75%;
 }
@@ -78,23 +94,33 @@
     top: 0%;
     left: 75%;
 }
-#home-grid .gif-1-container .img-6, #home-grid .gif-2-container .img-6, #home-grid .gif-4-container .img-6 {
+#home-grid .gif-1-container .img-6, 
+#home-grid .gif-2-container .img-6, 
+#home-grid .gif-4-container .img-6 {
     top: 0%;
     left: 50%;
 }
-#home-grid .gif-1-container .img-7, #home-grid .gif-2-container .img-7, #home-grid .gif-4-container .img-7 {
+#home-grid .gif-1-container .img-7, 
+#home-grid .gif-2-container .img-7, 
+#home-grid .gif-4-container .img-7 {
     top: 0%;
     left: 25%;
 }
-#home-grid .gif-1-container .img-8, #home-grid .gif-2-container .img-8, #home-grid .gif-4-container .img-8 {
+#home-grid .gif-1-container .img-8, 
+#home-grid .gif-2-container .img-8, 
+#home-grid .gif-4-container .img-8 {
     top: 25%;
     left: 25%;
 }
-#home-grid .gif-1-container .img-9, #home-grid .gif-2-container .img-9, #home-grid .gif-4-container .img-9 {
+#home-grid .gif-1-container .img-9, 
+#home-grid .gif-2-container .img-9, 
+#home-grid .gif-4-container .img-9 {
     top: 25%;
     left: 0%;
 }
-#home-grid .gif-1-container .img-10, #home-grid .gif-2-container .img-10, #home-grid .gif-4-container .img-10 {
+#home-grid .gif-1-container .img-10, 
+#home-grid .gif-2-container .img-10, 
+#home-grid .gif-4-container .img-10 {
     top: 50%;
     left: 0%;
 }
@@ -130,7 +156,8 @@
     font-size: 24px;
     line-height: 1.5em;
 }
-#home-menu .menu-title .l1,#home-menu .menu-title .l2 {
+#home-menu .menu-title .l1,
+#home-menu .menu-title .l2 {
     position: relative;
     display: block;
     -webkit-transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -144,7 +171,9 @@
 #home-menu .menu-title .l2 {
     font-family: 'RB';
 }
-#home-menu .cube-container,#home-menu .face-normal,#home-menu .face-hover {
+#home-menu .cube-container,
+#home-menu .face-normal,
+#home-menu .face-hover {
     position: absolute;
     top: 0;
     left: 0;
@@ -156,7 +185,8 @@
     -o-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
-#home-menu .face-normal,#home-menu .face-hover {
+#home-menu .face-normal,
+#home-menu .face-hover {
     overflow: hidden;
 }
 #home-menu .cube-container {
@@ -291,9 +321,25 @@
 #home-menu .menu-4 .face-hover .menu-title .l2 { top: 50px;}
 
 /*旋转方块相关颜色*/
-#home-menu .menu { color: #fff;}
-#home-menu .menu-1 .face-normal, #home-menu .menu-1 .face-hover { background-color: #f1f1f1;}
-#home-menu .menu-2 .face-normal, #home-menu .menu-2 .face-hover { background-color: #e8ac6c;}
-#home-menu .menu-3 .face-normal, #home-menu .menu-3 .face-hover { background-color: #c3252c;}
-#home-menu .menu-4 .face-normal, #home-menu .menu-4 .face-hover { background-color: #bfc2c6;}
-.menu-1 .cube-container .menu-title{color: #917637;}
+#home-menu .menu { 
+    color: #fff;
+}
+#home-menu .menu-1 .face-normal, 
+#home-menu .menu-1 .face-hover {
+ background-color: #f1f1f1;
+}
+#home-menu .menu-2 .face-normal, 
+#home-menu .menu-2 .face-hover { 
+    background-color: #e8ac6c;
+}
+#home-menu .menu-3 .face-normal, 
+#home-menu .menu-3 .face-hover { 
+    background-color: #c3252c;
+}
+#home-menu .menu-4 .face-normal, 
+#home-menu .menu-4 .face-hover { 
+    background-color: #bfc2c6;
+}
+.menu-1 .cube-container .menu-title{
+    color: #917637;
+}

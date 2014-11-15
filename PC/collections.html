@@ -86,10 +86,10 @@
     <div id="page-container">
     <!-- Accueil -->
         <section id="collection" class="page collection-page">
-            <div class="collection-content">
+            <div class="collection-content" id="collection-content">
             	<a href="#" class="left"><</a>
             	<div class="event-ponits">
-            		<ul class="event-ponits-list clearfix" style="width: 1280px;">
+            		<ul class="event-ponits-list clearfix">
             			<li>
             				<img src="../assets/images/collections/collection1.jpg" width="160" height="90">
             				<div class="hint up">
@@ -184,7 +184,7 @@
             	</div>
             	<a href="#" class="right">></a>
             </div>
-            <div class="timeline-line collection-timeline-line">
+            <div class="timeline-line collection-timeline-line" id="timeline-line">
             	<div class="line-wrap">
             		<div class="line-wrap-inner">
 	            		<a href="#" class="left"><</a>
@@ -265,11 +265,11 @@
 </div> <!-- end #main-container -->
 <script src="../assets/js/modern-detect-izr.min.js"></script>
 <script src="../assets/plugins/jquery-1.8.2/jquery-1.8.2.min.js"></script>
-<!-- <script src="../assets/plugins/coverflow-3.0.1/dist/coverflow.min.js"></script> -->
-<script src="../assets/js/time-line.js"></script>
+<script src="../assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="../assets/js/collection.js"></script>
 <script>
     $(function(){
-        TimeLime.init();
+        Collection.init();
     });
 </script>
 </body>

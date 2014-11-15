@@ -884,7 +884,7 @@ a{
 /*收藏*/
 .collection-content{
     position: relative;
-    margin-top: 250px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     max-width: 1440px;
@@ -892,7 +892,7 @@ a{
 .collection-content .left,
 .collection-content .right{
     position: absolute;
-    top: 0;
+    top: 180px;
     width: 78px;
     height: 90px;
     line-height: 90px;
@@ -904,7 +904,17 @@ a{
 }
 .collection-content .event-ponits{
     margin: 0 78px;
-    /*overflow-x:hidden;*/
+    height: 500px;
+    overflow-x:hidden;
+}
+.event-ponits-list{
+    position: relative;
+    left: 0;
+    margin-top: 180px;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s; /* Firefox 4 */
+    -webkit-transition: all 0.5s; /* Safari 和 Chrome */
+    -o-transition: all 0.5s; /* Opera */
 }
 .event-ponits-list li{
     float: left;
@@ -962,7 +972,7 @@ a{
     top: -90px;
 }
 .collection-timeline-line{
-    margin-top: 290px;
+    margin-top: 60px;
 }
 .collection-timeline-line .line-wrap{
     margin: 0 60px;
@@ -1353,3 +1363,199 @@ a{
 .article-opers .btn{
     margin: 0 20px;
 }
+
+.search-tags{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 34px;
+}
+.search-tags label{
+    color: #fff;
+    margin-left: 20px;
+}
+.search-tags .tag{
+    display: inline-block;
+    width: 100px;
+    height: 34px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.4);
+    filter: alpha(opacity=40);
+}
+
+
+
+
+/*city list*/
+.cityList {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 38px;
+    width: 500px;
+    /*padding: 9px;*/
+    border: 1px solid #e9e9e9;
+    background: #fff;
+    z-index: 1;
+    overflow: hidden;
+    font-family: VERDANA, '宋体';
+}
+.cityList *{
+    box-sizing: border-box;
+}
+.cityListBox dl dd a,.cityListBox dl dt{
+    line-height: 40px!important;
+    vertical-align: middle;
+}
+.cityList .title {
+    background-color: #f4f4f4;
+    padding-top: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 60px;
+    z-index: 1;
+}
+.cityList .title .close {
+    display: inline-block;
+    position: absolute;
+    right: 14px;
+    top: 18px;
+    width: 24px;
+    height: 24px;
+    background: url("../img/icons/icon-close.png") no-repeat;
+    background-size: 100% 100%;
+    opacity: 1;
+}
+.cityList .title .textGray {
+    padding: 7px 36px 7px 10px;
+    font-size: 14px;
+    color: #c7c7c7;
+}
+.cityList .title .cityTopSearch {
+    float: left;
+    width: 222px!important;
+    height: 40px;
+    line-height: 20px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: #3f3f3f;
+    padding: 6px 36px 8px 10px;
+    display: inline;
+    border: 1px solid #d1d1d1;
+}
+.cityTopSearch {
+    border: 1px solid #d1d1d1;
+    border-top: 0;
+}
+.cityTopSearch:focus{
+    outline: 0;
+}
+.cityList .title .cityTopSearchBtn {
+    position: absolute;
+    left: 200px;
+    top: 18px;
+    width: 36px;
+    height: 34px;
+    cursor: pointer;
+    border: 0;
+    /*background: url("http://pimg1.126.net/movie/images/index/icon8.png?v=20140720") no-repeat 0 -2px;*/
+}
+.cityList .title .titleChar {
+    /*margin-left: 262px;*/
+    margin-left: 10px;
+    padding-left: 0;
+    margin-top: 2px;
+    overflow: hidden;
+    list-style: none;
+    cursor: default;
+    font-size: 16px;
+    color: #3f3f3f;
+}
+.cityList .title .titleChar li {
+    float: left;
+    padding: 0 16px;
+    height: 48px;
+    line-height:44px;
+    text-align: center;
+}
+.cityList .title .titleChar .on {
+    color: #3f3f3f;
+    border-color: #e6dfde;
+    background-color: #fff;
+}
+.cityList .title .titleChar .first {
+    /*font-weight: bold;*/
+}
+.cityList .cityListBox {
+    color: #686868;
+    /*overflow: hidden;*/
+    overflow-y: auto;
+    _position: relative;
+}
+.cityList .cityListBox .cityListGroup {
+    position: relative;
+    /*overflow: hidden;*/
+    margin-top: -1px;
+    margin-left: 9px;
+    margin-right: 9px;
+    zoom: 1;
+}
+.cityList .cityListBox dl:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+.cityList .cityListBox .cityListGroup dl:first-child {border-top: 0;}
+.cityList .cityListBox dl {
+    border-top: 1px solid #d1d1d1;
+    display: inline-grid;
+    zoom: 1;
+}
+.cityList .cityListBox dl dt {
+    float: left;
+    clear: both;
+    width: 40px!important;
+    padding-left: 14px;
+    text-align: left;
+    /*height: auto;*/
+    /*height: 40px;*/
+    line-height: 26px;
+    color: #3f3f3f;
+    font-size: 16px;
+    /*overflow: hidden;*/
+}
+.cityList .cityListBox .hotCity dd {
+    padding-left: 22px;
+}
+.cityList .cityListBox dl dd {
+    float: left;
+    width: auto;
+    max-width: 424px;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+}
+.cityList .cityListBox dl dd a {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #3f3f3f;
+    line-height: 40px;
+    text-align: center;
+}
+.cityList .cityListBox dl dd a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #e8ac6c;
+}
+.cityList .cityListBox a {
+    width: 58px;
+    display: inline-block;
+}
+.none {
+    display: none;
+}
+

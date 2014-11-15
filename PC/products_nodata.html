@@ -18,24 +18,6 @@
     <link media="screen" rel="stylesheet" type="text/css" href="../assets/css/fontello/css/fontello.css">
     <link media="screen" rel="stylesheet" type="text/css" href="../assets/plugins/coverflow-3.0.1/dist/coverflow.css">
     
-    <!--[if lt IE 9]><script src="../assets/js/html5shiv.js"></script><![endif]-->
-
-    
-    <!-- // <script type="text/javascript" async="" src="../assets/js/ga.js"></script> -->
-    <!-- // <script type="text/javascript" async="" src="../assets/js/VM54.js"></script> -->
-    <!-- // <script type="text/javascript" async="" src="../assets/js/shortcut.js"></script> -->
-    <!-- Google Analytics -->
-    <script>
-        // var _gaq = _gaq || [];
-        // _gaq.push(['_setAccount', 'UA-XXXX-XX']);
-        // _gaq.push(['_trackPageview']);
-        // (function() {
-        //  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        //  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        //  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        // })();
-    </script>
-    <!--<script type="text/javascript" async="" src="../assets/js/ga.js"></script><script src="../assets/js/ga.js"></script>-->
     </head>
 
 <!--[if lt IE 7]> <body class="ie6 lt-ie7 lt-ie8 lt-ie9 lt-ie10"> <![endif]-->
@@ -50,7 +32,9 @@
         <div class="menu-up clearfix mt30">
             <i class="icon--cloudy weather font58 lh50"></i>
             <span class="weather font50 lh70"><span>27</span><span class="font24">℃</span></span>
-            <span class="weather"><a href="#" class="font14 area">北京<i class="icon-angle-down"></i></a><br/><span class="font14">晴转多云</span></span>
+            <span class="weather">
+                <div id="city-wrapper"><a href="#" class="font14 area"><span class="city-name">北京</span><i class="icon-angle-down"></i></a></div>
+                <span class="font14">晴转多云</span></span>
         </div>
         <ul class="menu-down clearfix">
             <li class="top-menu-active"><a href=""><i class="icon-menu"></i>动态</a></li>
@@ -132,10 +116,10 @@
 <script src="../assets/js/modern-detect-izr.min.js"></script>
 <script src="../assets/plugins/jquery-1.8.2/jquery-1.8.2.min.js"></script>
 <!-- <script src="../assets/plugins/coverflow-3.0.1/dist/coverflow.min.js"></script> -->
-<script src="../assets/js/time-line.js"></script>
+<script src="../assets/js/cityList.js"></script>
 <script>
     $(function(){
-        TimeLime.init();
+        // Product.init();
     });
 </script>
 </body>
